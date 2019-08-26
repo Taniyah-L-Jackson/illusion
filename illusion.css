@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+/*------------overal page component-----------------------------*/
+
+.background {
+    position: relative;
+    height: 600px;
+    width: 600px;
+    top: 30px;
+    left: 350px;
+    border-radius: 50%;
+    background: lightblue;
+}
+
+.line {
+    position: absolute;
+    height: 600px;
+    left: 300px;
+    width: 2px;
+    background: rgb(67, 67, 255);
+}
+
+.circle {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: -20px;
+    border-radius: 50%;
+    background: blue;
+    animation-name: drop;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.lineCopyOne {
+    position: absolute;
+    height: 600px;
+    left: 300px;
+    width: 2px;
+    background: rgb(67, 67, 255);
+    transform: rotate(90deg)
+}
+
+.circleCopyOne {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: -20px;
+    border-radius: 50%;
+    background: blue;
+    animation-name: drop;
+    animation-duration: 3s;
+    animation-delay: 0.8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.lineCopyTwo {
+    position: absolute;
+    height: 600px;
+    left: 300px;
+    width: 2px;
+    background: rgb(67, 67, 255);
+    transform: rotate(45deg)
+}
+
+.circleCopyTwo {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: -20px;
+    border-radius: 50%;
+    background: blue;
+    animation-name: drop;
+    animation-duration: 3s;
+    animation-delay: 0.4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.lineCopyThree {
+    position: absolute;
+    height: 600px;
+    left: 300px;
+    width: 2px;
+    background: rgb(67, 67, 255);
+    transform: rotate(132deg)
+}
+
+.circleCopyThree {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: -20px;
+    border-radius: 50%;
+    background: blue;
+    animation-name: drop;
+    animation-duration: 3s;
+    animation-delay: 1.12s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+
+.lineCopyFour {
+    position: absolute;
+    height: 600px;
+    left: 300px;
+    width: 2px;
+     background: rgb(67, 67, 255);
+    transform: rotate(110deg)
+}
+
+
+.circleCopyFour {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: -20px;
+    border-radius: 50%;
+    background: blue;
+    animation-name: drop;
+    animation-duration: 3s;
+    animation-delay: 0.98s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.lineCopyFive {
+    position: absolute;
+    height: 600px;
+    left: 300px;
+    width: 2px;
+     background: rgb(67, 67, 255);
+    transform: rotate(22deg)
+}
+
+.circleCopyFive {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: -20px;
+    border-radius: 50%;
+    background: blue;
+    animation-name: drop;
+    animation-duration: 3s;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+
+.lineCopySix {
+    position: absolute;
+    height: 600px;
+    left: 300px;
+    width: 2px;
+     background: rgb(67, 67, 255);
+    transform: rotate(155deg)
+}
+
+.circleCopySix {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: -20px;
+    border-radius: 50%;
+    background: blue;
+    animation-name: drop;
+    animation-duration: 3s;
+    animation-delay: 1.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+
+.lineCopySeven {
+    position: absolute;
+    height: 600px;
+    left: 300px;
+    width: 2px;
+    background: rgb(67, 67, 255);
+    transform: rotate(68deg)
+}
+
+.circleCopySeven {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: -20px;
+    border-radius: 50%;
+    background: blue;
+    animation-name: drop;
+    animation-duration: 3s;
+    animation-delay: 0.6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes drop {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 560px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
